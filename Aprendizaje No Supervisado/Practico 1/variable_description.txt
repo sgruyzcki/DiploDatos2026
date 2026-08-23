@@ -1,0 +1,50 @@
+player_id	player id on sofifa	id
+player_url	url of the scraped player	url
+fifa_version	fifa version of team's data (from 15 to 24)	id
+fifa_update	fifa update number of team's data	id
+update_as_of	fifa date of update of team's data	fecha
+short_name	player short name	texto
+long_name	player long name	texto
+player_positions	player preferred positions	categórica
+overall	player current overall attribute	num
+potential	player potential overall attribute	num
+value_eur	player value (in eur)	num
+wage_eur	player weekly wage (in eur)	num
+age	player age	num
+dob	player date of birth	fecha
+height_cm	player height (in cm)	num
+weight_kg	player weight (in kg)	num
+club_team_id	club team_id where the player plays	id
+club_name	club name where the player plays	categórica
+league_id	league id where the team played in that fifa version	id
+league_name	league name where the player played	categórica
+league_level	level of the league where the player played	num
+club_position	player position in the club (sub, res, etc.)	categórica
+club_jersey_number	player jersey number in the club	num
+club_loaned_from	club loaning out the player - if applicable	categórica
+club_joined_date	date when the player joined his current club	fecha
+club_contract_valid_until_year	player contract expiration date	num
+nationality_id	player nationality id	id
+nationality_name	player nationality name	categórica
+nation_team_id	national team_id where the player plays	id
+nation_position	player position in the national team	categórica
+nation_jersey_number	player jersey number in the national team	num
+preferred_foot	player preferred foot	categórica
+weak_foot	player weak foot attribute	num
+skill_moves	player skill moves attribute	num
+international_reputation	player international reputation attribute	num
+work_rate	player work rate attributes (attacking / defensive)	categórica
+body_type	player body type	categórica
+real_face	player real face	booleana
+release_clause_eur	player release clause (in eur) - if applicable	num
+player_tags	player tags	texto
+player_traits	player traits	texto
+pace, shooting, passing, dribbling, defending, physic	atributos resumen de campo	num
+attacking_* (crossing, finishing, heading_accuracy, short_passing, volleys)	atributos de ataque	num
+skill_* (dribbling, curve, fk_accuracy, long_passing, ball_control)	atributos técnicos	num
+movement_* (acceleration, sprint_speed, agility, reactions, balance)	atributos de movimiento	num
+power_* (shot_power, jumping, stamina, strength, long_shots)	atributos físicos	num
+mentality_* (aggression, interceptions, positioning, vision, penalties, composure)	atributos mentales	num
+defending_* (marking_awareness, standing_tackle, sliding_tackle)	atributos defensivos	num
+goalkeeping_* (diving, handling, kicking, positioning, reflexes, speed)	atributos de arquero	num
+ls,st,rs,lw,lf,cf,rf,rw,lam,cam,ram,lm,lcm,cm,rcm,rm,lwb,ldm,cdm,rdm,rwb,lb,lcb,cb,rcb,rb,gk	rating del jugador jugando en cada posición (derivado, formato object)

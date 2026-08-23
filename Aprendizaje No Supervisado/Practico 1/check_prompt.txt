@@ -1,0 +1,17 @@
+Ahora actúa como un **revisor metodológico crítico** de tu interpretación anterior.
+
+Intenta refutarla antes de aceptarla.
+
+Para cada cluster:
+
+1. Identifica qué afirmaciones están directamente respaldadas por los datos.
+2. Señala qué afirmaciones son interpretaciones o hipótesis y podrían estar sobreinterpretadas.
+3. Busca explicaciones futbolísticas alternativas compatibles con los mismos patrones.
+4. Evalúa nuevamente si los jugadores pueden considerarse equivalentes y en qué sentido.
+5. Determina si la heterogeneidad o el tamaño de algún cluster contradicen la interpretación inicial.
+6. Indica qué conclusiones son robustas y cuáles deberían reformularse.
+
+Finalmente entrega una **versión corregida y definitiva de la interpretación**, eliminando cualquier afirmación que no esté suficientemente respaldada.
+
+Sé conservador: es preferible una conclusión menos específica pero defendible que una narrativa futbolística convincente pero especulativa.
+

@@ -1,0 +1,105 @@
+Analiza los archivos adjuntos como un único conjunto de datos.
+
+### Rol
+
+Actúa como experto en **clustering, estadística multivariada y análisis de rendimiento en fútbol**.
+
+README
+
+[Objetivo:
+Interpretar clusters de jugadores masculinos de fútbol.
+
+Algoritmo:
+K-Means, k=4.
+
+Preprocesamiento:
+Variables estandarizadas mediante z-score con StandardScaler.
+Sin imputación posterior al clustering.
+
+Distancia:
+Euclídea.
+
+Importante:
+Las variables utilizadas para construir los clusters fueron únicamente de skills 
+de los jugadores. Todas las skills mencionadas en los archivos se usaron.
+
+Unidad de análisis:
+Jugador.
+
+Muestra:
+18350 jugadores.
+
+Los clusters deben interpretarse como perfiles estadísticos,
+no como posiciones futbolísticas predeterminadas.]
+
+### Jerarquía de información
+
+Utiliza los archivos con esta prioridad:
+
+1. **variables\_description.txt** → definición y tipo de las variables.
+2. **cluster\_description.csv** → evidencia cuantitativa principal para interpretar los clusters.
+
+Si existe alguna contradicción entre archivos, **no la resuelvas arbitrariamente**: señálala y utiliza la información cuantitativa de `cluster_description.csv` como referencia principal para la interpretación.
+
+### Objetivo
+
+Determina qué representa cada cluster y hasta qué punto los jugadores pertenecientes a un mismo cluster pueden considerarse similares o "equivalentes".
+
+Para cada cluster analiza:
+
+1. **Perfil multivariado:** variables que lo caracterizan y diferencian de los demás.
+2. **Interpretación futbolística:** qué perfil, comportamiento o función futbolística es compatible con ese patrón.
+3. **Homogeneidad:** qué tan similares son internamente los jugadores y qué variables explican la heterogeneidad.
+4. **Equivalencia:** distingue entre similitud estadística, similitud futbolística y posible equivalencia funcional.
+5. **Tamaño:** qué puede explicar razonablemente su frecuencia relativa, sin extrapolarla a la población general.
+
+Después compara los clusters y determina si representan **categorías diferenciadas o diferentes zonas de un continuo**.
+
+### Reglas
+
+- No presupongas que los clusters corresponden a posiciones futbolísticas.
+- No utilices información externa para asignarles una interpretación.
+- No confundas pertenencia al mismo cluster con equivalencia futbolística.
+- No atribuyas causalidad.
+- Prioriza patrones multivariados.
+- Distingue entre **evidencia, interpretación e hipótesis**.
+- Si los datos no permiten una conclusión, dilo explícitamente.
+- Si existen interpretaciones alternativas plausibles, preséntalas.
+- No fuerces una narrativa futbolística que los datos no respalden.
+- No inventes información ausente en los archivos.
+
+### Salida
+
+#### 1. Resumen ejecutivo
+
+5–8 conclusiones principales.
+
+#### 2. Perfil de cada cluster
+
+Para cada cluster:
+
+- tamaño;
+- variables distintivas;
+- patrón multivariado;
+- interpretación futbolística;
+- homogeneidad/heterogeneidad;
+- nivel de confianza;
+- principales incertidumbres.
+
+#### 3. Comparación entre clusters
+
+Principales diferencias, similitudes y posibles continuos.
+
+#### 4. Equivalencia
+
+¿En qué sentido pueden considerarse equivalentes los jugadores de cada cluster y en qué sentido no?
+
+#### 5. Tamaño y heterogeneidad
+
+Explicaciones plausibles y límites de inferencia.
+
+#### 6. Conclusión
+
+Qué representan globalmente los clusters y qué tan útiles son para comparar jugadores.
+
+Antes de comenzar la interpretación, **verifica que hayas podido leer correctamente los archivos y que la información sea suficiente**. Si falta información crítica, indícalo primero y no inventes supuestos.
